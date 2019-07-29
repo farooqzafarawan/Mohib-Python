@@ -6,13 +6,13 @@ from elasticsearch import Elasticsearch
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
 doc1 = {
-    'author': 'Farooq',
-    'text': 'Customer Merge',
+    'author': 'Zain',
+    'text': 'Training Course',
     'timestamp': datetime.today().isoformat(),
 }
 doc2 = {
-    'author': 'Umeed',
-    'text': 'Reading Stories to Umar Farooq',
+    'author': 'Faisal',
+    'text': 'Reading Stories to Umar',
     'timestamp': datetime.today().isoformat(),
 }
 
